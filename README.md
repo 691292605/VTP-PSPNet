@@ -120,8 +120,6 @@ git clone https://github.com/MiniMax-AI/VTP.git
 - `config.json`
 - `model.safetensors`
 
-## 使用方法
-
 ### 数据准备
 
 下载 PASCAL VOC 2012 数据集，放置于 `./data/VOCdevkit/VOC2012/` 目录下。
