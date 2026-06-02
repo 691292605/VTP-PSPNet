@@ -113,7 +113,7 @@ Input Image (512×512)
 本项目的 Backbone 依赖 VTP 模型源码，需克隆到项目根目录：
 
 ```bash
-git clone https://github.com/microsoft/VTP.git VTP_main
+git clone https://github.com/MiniMax-AI/VTP.git
 ```
 
 并将 VTP-Large 预训练权重放置于 `./backbone_weight_large/` 目录下，包含：
