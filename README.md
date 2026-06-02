@@ -108,6 +108,20 @@ Input Image (512×512)
 
 ## 使用方法
 
+### 安装 VTP 源码
+
+本项目的 Backbone 依赖 VTP 模型源码，需克隆到项目根目录：
+
+```bash
+git clone https://github.com/microsoft/VTP.git VTP_main
+```
+
+并将 VTP-Large 预训练权重放置于 `./backbone_weight_large/` 目录下，包含：
+- `config.json`
+- `model.safetensors`
+
+## 使用方法
+
 ### 数据准备
 
 下载 PASCAL VOC 2012 数据集，放置于 `./data/VOCdevkit/VOC2012/` 目录下。
@@ -137,4 +151,3 @@ python PCA.py                 # PCA 特征可视化
 - [VTP: Towards Scalable Pre-training of Visual Tokenizers for Generation](https://arxiv.org/abs/2512.13687)
 - [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)
 - [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
-
